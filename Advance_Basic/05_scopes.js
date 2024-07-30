@@ -46,8 +46,9 @@ function sqrtFun(num)
     console.log(num**2);
 }
 
+// This type of function calling is called hoisting 
+console.log(sqrtValue(25));
 const sqrtValue = function(num)
 {
     return num**2;
 }
-console.log(sqrtValue(25));
